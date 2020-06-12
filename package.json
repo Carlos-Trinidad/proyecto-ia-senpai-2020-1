@@ -1,0 +1,24 @@
+{
+  "name": "proyecto-ia-senpai-2020-1",
+  "version": "1.0.0",
+  "description": "Proyecto Watson Developer de Senpai Academy. Semestre 1 de 2020.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carlos-Trinidad/proyecto-ia-senpai-2020-1.git"
+  },
+  "author": "Carlos Trinidad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carlos-Trinidad/proyecto-ia-senpai-2020-1/issues"
+  },
+  "homepage": "https://github.com/Carlos-Trinidad/proyecto-ia-senpai-2020-1#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
