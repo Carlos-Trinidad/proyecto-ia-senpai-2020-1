@@ -1,11 +1,11 @@
 applications:
     - name: senpai-2020-carlostrinidad-dev
-      memory: 128M
+      memory: 64M
       instances: 1
       env:
         API_KEY: '{placeholder}'
     - name: senpai-2020-carlostrinidad-test
-      memory: 128M
+      memory: 64M
       instances: 1
     - name: senpai-2020-carlostrinidad
       memory: 128M
