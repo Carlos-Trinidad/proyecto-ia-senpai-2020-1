@@ -3,7 +3,6 @@ applications:
       memory: 128M
       instances: 1
       env:
-        port: 0
         API_KEY: '{placeholder}'
     - name: senpai-2020-carlostrinidad-test
       memory: 128M
