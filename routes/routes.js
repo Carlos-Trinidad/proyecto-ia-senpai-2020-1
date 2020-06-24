@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 const pingController = require('./../controllers/pingController');
+const watsonAssistantController = require('./../controllers/watsonAssistantController');
 
 router.get('/hola-mundo', async (req, res) => {2
     console.log(req.query);
@@ -17,6 +18,22 @@ router.get('/hola-mundo', async (req, res) => {2
 // Rutas Ping
 router.get('/ping', pingController.getPing);
 router.post('/ping', pingController.postPing);
+
+// Rutas Watson Assistant
+router.get('/message', watsonAssistantController.sendMessage);
+
+// Rutas Webhook
+router.post('/webhook/assistant', async (req, res) => {
+  if(req.body.action === 'hello_world'){
+    return { message: 'Hello World' };
+}
+else if(req.body.action === 'hoteles_punta'){
+    return { hoteles: ['Conrad', 'Torreon']};
+}
+else{
+    return { message: 'World' };
+}
+})
 
 /*
 
