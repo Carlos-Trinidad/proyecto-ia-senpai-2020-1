@@ -33,16 +33,17 @@ router.post("/ping", pingController.postPing);
 // Rutas Watson Assistant
 router.get("/message", watsonAssistantController.sendMessage);
 
-// Rutas Webhook
+/* // Rutas Webhook
 router.post("/webhook/assistant", async (req, res) => {
   if (req.body.action === "hello_world") {
+    //esto estaba con un return en vez de un res.send()
     res.send({ message: "Hello World" });
   } else if (req.body.action === "hoteles_punta") {
     res.send({ hoteles: ["Conrad", "Torreon"] });
   } else {
     res.send({ message: "World" });
   }
-});
+}); */
 
 /*
 
