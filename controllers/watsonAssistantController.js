@@ -13,6 +13,12 @@ let sendMessage = async (req, res) => {
     try {
         let assistantId = process.env.WATSON_ASSISTANT_ASSISTANT_ID;
         let sessionId = req.body.sessionId ? req.body.sessionId : await createSession(assistantId);
+        /* if(req.body.sessionId === undefined || req.body.sessionId === null){ // if(req.body.sessionId)
+            sessionId = await createSession(assistantId);
+        }
+        else{
+            sessionId = req.body.sessionId;
+        } */
         let text = req.body.text;
 
         /*
