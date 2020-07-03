@@ -16,7 +16,8 @@
     return this;
   };
   $(function () {
-    var getMessageText, message_side, sendMessage, session_id;
+    var getMessageText, message_side, sendMessage, session_id, sendNluAnalyze;
+    sendNluAnalyze = false;
     message_side = "right";
     getMessageText = function () {
       var $message_input;
@@ -77,7 +78,9 @@
                 '<input type="file" name="imagen" id="inputImage"><button id="enviarImage" onclick="sendClassifyImage()">Enviar</button>',
                 "bot"
               );
-            }
+            } else if (response.intencion.intent === "analizar_url") {
+              sendNluAnalyze = true;
+            };
           })
           .catch((error) => console.error("Error:", error));
       }
@@ -102,12 +105,50 @@
       })
       .catch((error) => console.error("Error:", error));
     };
+    sendUrlToAnalyze = function (text) {
+      $(".message_input").val("");
+      let $messages = $(".messages");
+      let message = new Message({
+        text: text,
+        message_side: "right",
+      });
+      message.draw();
+      $messages.animate({ scrollTop: $messages.prop("scrollHeight") }, 300);
+
+      let data = { url: text };
+      console.log(data);
+      fetch("/api/v1/analyze", {
+        method: "POST",
+        body: JSON.stringify(data),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
+        .then((response) => response.json())
+        .then((response) => {
+          console.log(response);
+          sendMessage(JSON.stringify(response), "bot");
+          sendNluAnalyze = false;
+        })
+        .catch((error) => {
+          console.error("Error:", error);
+          sendNluAnalyze = false;
+        });
+    };
     $(".send_message").click(function (e) {
-      return sendMessage(getMessageText(), "user");
+      if (sendNluAnalyze) {
+        sendUrlToAnalyze(getMessageText());
+      } else {
+        sendMessage(getMessageText(), "user");
+      }
     });
     $(".message_input").keyup(function (e) {
       if (e.which === 13) {
-        return sendMessage(getMessageText(), "user");
+        if (sendNluAnalyze) {
+          sendUrlToAnalyze(getMessageText());
+        } else {
+          sendMessage(getMessageText(), "user");
+        }
       }
     });
     sendMessage("Mamporrero", "user");
