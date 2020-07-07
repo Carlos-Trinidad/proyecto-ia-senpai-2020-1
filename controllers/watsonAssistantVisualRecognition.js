@@ -24,7 +24,7 @@ let classifyImage = async (req, res) => {
     let classifiedImages = response.result;
     console.log(JSON.stringify(classifiedImages, null, 2));
 
-    var hotel = classifiedImages.images[0].classifiers[0].classes.reduce(function (prev, current) {
+    let hotel = classifiedImages.images[0].classifiers[0].classes.reduce(function (prev, current) {
         return (prev.score > current.score) ? prev : current
      });
 
