@@ -3,9 +3,11 @@ const router = express.Router();
 
 const pingController = require("./../controllers/pingController");
 const watsonAssistantController = require("./../controllers/watsonAssistantController");
-const watsonVisualRecognitionController = require("./../controllers/watsonAssistantVisualRecognition");
+const watsonVisualRecognitionController = require("./../controllers/watsonVisualRecognition");
 const watsonNluController = require('./../controllers/watsonNluController');
 const cloudantController = require('./../controllers/cloudantController');
+const watsonLanguageTranslatorController = require("./../controllers/watsonLanguageTranslatorController");
+const watsonToneAnalyzerController = require("./../controllers/watsonToneAnalyzerController");
 
 router.get("/hola-mundo", async (req, res) => {
   2;
@@ -35,6 +37,7 @@ router.post("/ping", pingController.postPing);
 
 // Rutas Watson Assistant
 router.post("/message", watsonAssistantController.sendMessage);
+router.post("/message/emotion", watsonAssistantController.sendMessageAnalysis);
 
 // Rutas Watson Visual Recognition
 router.post("/classify", watsonVisualRecognitionController.classifyImage);
@@ -44,6 +47,12 @@ router.post("/analyze", watsonNluController.analyze);
 
 // Rutas Cloudant
 router.post("/insert/nlu", cloudantController.insertNlu);
+
+// Rutas Watson Translator 
+router.post("/translate", watsonLanguageTranslatorController.translate);
+
+// Rutas Watson Tone Analyzer
+router.post("/analyze/emotion", watsonToneAnalyzerController.analyzeTone);
 
 /* // Rutas Webhook
 router.post("/webhook/assistant", async (req, res) => {

@@ -4,37 +4,37 @@
       "intent": "General_Human_or_Bot",
       "examples": [
         {
-          "text": "Podría hablar con un agente virtual?"
-        },
-        {
-          "text": "Me confirmas si hablo con un agente virtual o con un agente real?"
-        },
-        {
-          "text": "Hablo con una persona?"
-        },
-        {
-          "text": "Hablo con una máquina?"
-        },
-        {
-          "text": "Eres un operador virtual o vivo?"
-        },
-        {
-          "text": "Eres una máquina o una persona real?"
-        },
-        {
-          "text": "Tu eres un agente virtual o real?"
+          "text": "Quiero saber si eres real o no"
         },
         {
           "text": "Eres un agente virtual?"
         },
         {
-          "text": "Quiero saber si eres real o no"
+          "text": "Eres una máquina o una persona real?"
+        },
+        {
+          "text": "Eres un operador virtual o vivo?"
+        },
+        {
+          "text": "Tu eres un agente virtual o real?"
         },
         {
           "text": "PPuedes decirme, si eres vivo o virtual?"
         },
         {
           "text": "Preferiría hablar con un agente virutal."
+        },
+        {
+          "text": "Podría hablar con un agente virtual?"
+        },
+        {
+          "text": "Me confirmas si hablo con un agente virtual o con un agente real?"
+        },
+        {
+          "text": "Hablo con una máquina?"
+        },
+        {
+          "text": "Hablo con una persona?"
         }
       ],
       "description": "Preguntar si habla con un humano o un bot."
@@ -42,6 +42,18 @@
     {
       "intent": "General_Jokes",
       "examples": [
+        {
+          "text": "Puedes entretenerme?"
+        },
+        {
+          "text": "Me gustan los chistes, cuéntame uno."
+        },
+        {
+          "text": "Me aburro."
+        },
+        {
+          "text": "Estoy aburrido."
+        },
         {
           "text": "Divierteme!"
         },
@@ -64,18 +76,6 @@
           "text": "Cuál es tu chiste favorito?"
         },
         {
-          "text": "Te ha pasado algo chistoso hoy?"
-        },
-        {
-          "text": "Te gusta hacer chistes?"
-        },
-        {
-          "text": "Te gustan los chistes?"
-        },
-        {
-          "text": "Sorpréndeme con algo chistoso."
-        },
-        {
           "text": "Sabes contar chistes?"
         },
         {
@@ -88,79 +88,49 @@
           "text": "Puedo jugar juegos aquí?"
         },
         {
-          "text": "Puedes entretenerme?"
-        },
-        {
           "text": "Me gustaría que me diviertas."
         },
         {
-          "text": "Me gustan los chistes, cuéntame uno."
+          "text": "Te ha pasado algo chistoso hoy?"
         },
         {
-          "text": "Me aburro."
+          "text": "Te gustan los chistes?"
         },
         {
-          "text": "Estoy aburrido."
+          "text": "Te gusta hacer chistes?"
+        },
+        {
+          "text": "Sorpréndeme con algo chistoso."
         }
       ],
       "description": "Solicito una broma"
     },
     {
+      "intent": "analizar_url",
+      "examples": [
+        {
+          "text": "quiero analizar este texto"
+        },
+        {
+          "text": "analisis de texto"
+        },
+        {
+          "text": "quier analizar algo"
+        },
+        {
+          "text": "analisis sobre esto"
+        },
+        {
+          "text": "quiero analizar esta url"
+        }
+      ],
+      "description": ""
+    },
+    {
       "intent": "General_Connect_to_Agent",
       "examples": [
         {
-          "text": "¿Puedo tener información de contacto para hablar con un agente real?"
-        },
-        {
-          "text": "¿Puede enviarme un número telefónico para que hable con un representante humano de ventas?"
-        },
-        {
-          "text": "Por favor ayudame a contactar a un agente."
-        },
-        {
-          "text": "Podrías ponerme en contacto con un operador?"
-        },
-        {
-          "text": "Perfecto. Ahora, me gustaría hablar con un agente sobre algunos cargos."
-        },
-        {
-          "text": "Pasame con un agente experto!"
-        },
-        {
-          "text": "Necesito hablar directamente con un agente."
-        },
-        {
-          "text": "Necesito hablar con una persona real, en lugar de un sistema automatizado de respuestas, por favor."
-        },
-        {
-          "text": "Nada contra maquinas, pero ponme con un operador."
-        },
-        {
-          "text": "Mi factura está incorrecta, quiero hablar con un representante."
-        },
-        {
-          "text": "Llama a un representante."
-        },
-        {
-          "text": "Hola, ¿puedes transferir mi llamada a un agente humano? Deseo hablar directamente con un ser humano."
-        },
-        {
-          "text": "Hola, ¿podría transferirme al agente vivo, por favor?"
-        },
-        {
-          "text": "Hola! Estaba hablando con un agente y se me ha quedado colgado el chat y he perdido la conexión."
-        },
-        {
           "text": "Ayudame a ponerme en contacto con una persona."
-        },
-        {
-          "text": "Esto es muy frustrante, quiero hablar con una persona viva y real."
-        },
-        {
-          "text": "Hay algún ser vivo con cuál podría hablar?"
-        },
-        {
-          "text": "¿Hay un número de servicio al cliente que pueda usar para contactar a la compañía telefónica y hablar directamente con un agente?"
         },
         {
           "text": "Sería posible hablar con una persona?"
@@ -208,7 +178,58 @@
           "text": "Transferirme a un agente por favor."
         },
         {
+          "text": "¿Puedo tener información de contacto para hablar con un agente real?"
+        },
+        {
           "text": "¿Puedes ayudarme a conectar con un agente?"
+        },
+        {
+          "text": "¿Puede enviarme un número telefónico para que hable con un representante humano de ventas?"
+        },
+        {
+          "text": "Por favor ayudame a contactar a un agente."
+        },
+        {
+          "text": "Podrías ponerme en contacto con un operador?"
+        },
+        {
+          "text": "Perfecto. Ahora, me gustaría hablar con un agente sobre algunos cargos."
+        },
+        {
+          "text": "Pasame con un agente experto!"
+        },
+        {
+          "text": "Necesito hablar directamente con un agente."
+        },
+        {
+          "text": "Necesito hablar con una persona real, en lugar de un sistema automatizado de respuestas, por favor."
+        },
+        {
+          "text": "Nada contra maquinas, pero ponme con un operador."
+        },
+        {
+          "text": "Mi factura está incorrecta, quiero hablar con un representante."
+        },
+        {
+          "text": "Llama a un representante."
+        },
+        {
+          "text": "Hola, ¿puedes transferir mi llamada a un agente humano? Deseo hablar directamente con un ser humano."
+        },
+        {
+          "text": "Hola, ¿podría transferirme al agente vivo, por favor?"
+        },
+        {
+          "text": "Hola! Estaba hablando con un agente y se me ha quedado colgado el chat y he perdido la conexión."
+        },
+        {
+          "text": "¿Hay un número de servicio al cliente que pueda usar para contactar a la compañía telefónica y hablar directamente con un agente?"
+        },
+        {
+          "text": "Hay algún ser vivo con cuál podría hablar?"
+        },
+        {
+          "text": "Esto es muy frustrante, quiero hablar con una persona viva y real."
         }
       ],
       "description": "Solicitar un agente humano"
@@ -216,6 +237,21 @@
     {
       "intent": "General_Negative_Feedback",
       "examples": [
+        {
+          "text": "Eres un inútil."
+        },
+        {
+          "text": "Espero no necesitar tu ayada más."
+        },
+        {
+          "text": "Este servicio no sirve para nada."
+        },
+        {
+          "text": "Estoy muy decepcionado."
+        },
+        {
+          "text": "Increíble, mi problema sigue sin resolverse un mes."
+        },
         {
           "text": "La peor experiencia que he tenido en mi vida con un agente."
         },
@@ -253,55 +289,61 @@
           "text": "Voy a quejarme."
         },
         {
-          "text": "Cómo te atreves a tratarme de este modo?"
-        },
-        {
-          "text": "Increíble, mi problema sigue sin resolverse un mes."
-        },
-        {
-          "text": "Estoy muy decepcionado."
-        },
-        {
-          "text": "Este servicio no sirve para nada."
-        },
-        {
-          "text": "Espero no necesitar tu ayada más."
-        },
-        {
-          "text": "Eres un inútil."
-        },
-        {
           "text": "El comportamiento del agente era inapropiado."
         },
         {
           "text": "El agente era maldispuesto."
+        },
+        {
+          "text": "Cómo te atreves a tratarme de este modo?"
         }
       ],
       "description": "Expresar comentarios desfavorables."
     },
     {
+      "intent": "puntuar_hotel",
+      "examples": [
+        {
+          "text": "quiero dejar una review"
+        },
+        {
+          "text": "hacer review de hotel"
+        },
+        {
+          "text": "quiero dejar un comentario"
+        },
+        {
+          "text": "quiero dejar un comentario de mi estadia en el hotel"
+        },
+        {
+          "text": "quiero puntuar mi hotel"
+        }
+      ],
+      "description": ""
+    },
+    {
       "intent": "reservar_hotel",
       "examples": [
         {
+          "text": "quiero hacer una reservacion"
+        },
+        {
           "text": "haceme una reserva"
-        },
-        {
-          "text": "kiero reserbar"
-        },
-        {
-          "text": "quiero reservar un hotel"
-        },
-        {
-          "text": "agendar una habitacion de hotel"
-        },
-        {
-          "text": "quiero reservar"
         },
         {
           "text": "me gustaria hacer una reserva"
         },
         {
-          "text": "quiero hacer una reservacion"
+          "text": "quiero reservar"
+        },
+        {
+          "text": "agendar una habitacion de hotel"
+        },
+        {
+          "text": "quiero reservar un hotel"
+        },
+        {
+          "text": "kiero reserbar"
         }
       ],
       "description": ""
@@ -309,39 +351,6 @@
     {
       "intent": "General_Security_Assurance",
       "examples": [
-        {
-          "text": "¿Puedo estar seguro que mi información de tarjeta guardada está cifrada y asegurada?"
-        },
-        {
-          "text": "¿Puedo confiar en todo lo que leo en este chat?"
-        },
-        {
-          "text": "¿Pueden asegurarme que toda la información de mi cuenta está protegida?"
-        },
-        {
-          "text": "Puede demostrarme que esta conversación es segura?"
-        },
-        {
-          "text": "¿Puede confirmarme si esa red es segura?"
-        },
-        {
-          "text": "¿Mi informacion personal de pago es manejada seguramente?"
-        },
-        {
-          "text": "Hola El usuario desea garantías de que cualquier información que proporciona en la conversación está protegida y segura."
-        },
-        {
-          "text": "Hay algunas precauciones contra los hackers?"
-        },
-        {
-          "text": "¿Hay alguna razón para desconfiar de este chat?"
-        },
-        {
-          "text": "Es esto un chat oficial?"
-        },
-        {
-          "text": "¿Dónde puedo encontrar su certificado de seguridad?"
-        },
         {
           "text": "Cómo sé que este chat no es una estafa?"
         },
@@ -358,16 +367,49 @@
           "text": "¿Cómo puede asegurar que nuestra conversación por chat es confidencial?"
         },
         {
-          "text": "Qué tipos de medidas se han tomado para proteger esta conversación?"
+          "text": "Qué sistemas de protección usan contra los hackers?"
         },
         {
-          "text": "Qué sistemas de protección usan contra los hackers?"
+          "text": "¿Puedo estar seguro que mi información de tarjeta guardada está cifrada y asegurada?"
+        },
+        {
+          "text": "Quisiera asegurarme que mis detalles de tarjeta están seguros, ¿puedes hacerlo?"
         },
         {
           "text": "¿Qué medidas de seguridad están usadas para asegurar que este chat es seguro?"
         },
         {
-          "text": "Quisiera asegurarme que mis detalles de tarjeta están seguros, ¿puedes hacerlo?"
+          "text": "¿Puedo confiar en todo lo que leo en este chat?"
+        },
+        {
+          "text": "¿Pueden asegurarme que toda la información de mi cuenta está protegida?"
+        },
+        {
+          "text": "Puede demostrarme que esta conversación es segura?"
+        },
+        {
+          "text": "¿Mi informacion personal de pago es manejada seguramente?"
+        },
+        {
+          "text": "¿Puede confirmarme si esa red es segura?"
+        },
+        {
+          "text": "Hola El usuario desea garantías de que cualquier información que proporciona en la conversación está protegida y segura."
+        },
+        {
+          "text": "Hay algunas precauciones contra los hackers?"
+        },
+        {
+          "text": "¿Hay alguna razón para desconfiar de este chat?"
+        },
+        {
+          "text": "Qué tipos de medidas se han tomado para proteger esta conversación?"
+        },
+        {
+          "text": "Es esto un chat oficial?"
+        },
+        {
+          "text": "¿Dónde puedo encontrar su certificado de seguridad?"
         }
       ],
       "description": "Expresar preocupaciones sobre la seguridad del bot."
@@ -376,46 +418,31 @@
       "intent": "General_About_You",
       "examples": [
         {
-          "text": "Quiero crear un agente virtual que hable portugués"
-        },
-        {
-          "text": "Qué color tienen tus ojos?"
-        },
-        {
-          "text": "¿Puedo hacer mis preguntas usando Siri en lugar de esta aplicación?"
-        },
-        {
-          "text": "Puedo hacerle algunas preguntas de validación de las ventas"
-        },
-        {
-          "text": "¿Puede explicarme la diferencia entre este sistema y cualquier otro?"
-        },
-        {
-          "text": "¿Puede darme información general sobre usted?"
-        },
-        {
-          "text": "Me puedes decir como se llama la aplicación?"
-        },
-        {
-          "text": "Dime tu nombre completo."
-        },
-        {
-          "text": "De qué país eres?"
-        },
-        {
-          "text": "Cuántos idiomas hablas?"
-        },
-        {
-          "text": "¿Cuál es su versión?"
-        },
-        {
-          "text": "Estoy buscando una solución para mejorar mi compromiso con los clientes"
+          "text": "Tienes algún interés?"
         },
         {
           "text": "¿Con qué tipo de robot estoy interactuando?"
         },
         {
+          "text": "¿Cuál es su versión?"
+        },
+        {
+          "text": "Cuántos idiomas hablas?"
+        },
+        {
+          "text": "De qué país eres?"
+        },
+        {
+          "text": "Dime tu nombre completo."
+        },
+        {
+          "text": "Dónde estás ahora mismo?"
+        },
+        {
           "text": "¿Eres un representante oficial de conversación?"
+        },
+        {
+          "text": "Estoy buscando una solución para mejorar mi compromiso con los clientes"
         },
         {
           "text": "¿Hablas alemán?"
@@ -424,16 +451,31 @@
           "text": "Me gustaría configurar el bot de conversación para mi negocio."
         },
         {
-          "text": "Tienes algún interés?"
+          "text": "Me puedes decir como se llama la aplicación?"
         },
         {
-          "text": "Qué te gusta hacer en tu tiempo libre?"
+          "text": "¿Puede darme información general sobre usted?"
         },
         {
-          "text": "Dónde estás ahora mismo?"
+          "text": "¿Puede explicarme la diferencia entre este sistema y cualquier otro?"
+        },
+        {
+          "text": "Puedo hacerle algunas preguntas de validación de las ventas"
+        },
+        {
+          "text": "¿Puedo hacer mis preguntas usando Siri en lugar de esta aplicación?"
+        },
+        {
+          "text": "Qué color tienen tus ojos?"
+        },
+        {
+          "text": "Quiero crear un agente virtual que hable portugués"
         },
         {
           "text": "Quiero entender cómo funcionas"
+        },
+        {
+          "text": "Qué te gusta hacer en tu tiempo libre?"
         }
       ],
       "description": "Solicitar atributos personales genéricos."
@@ -442,55 +484,55 @@
       "intent": "General_Greetings",
       "examples": [
         {
-          "text": "¿Cómo está? / Oye, ¿Qué tal?"
-        },
-        {
-          "text": "Buenas noches."
-        },
-        {
-          "text": "Buenos días, podemos empezar la conversación?"
-        },
-        {
-          "text": "¡Estoy feliz de poder hablar contigo por primera vez!"
-        },
-        {
-          "text": "¿Estás ahí?"
-        },
-        {
-          "text": "Hey, ¿cómo te va?"
-        },
-        {
-          "text": "Hola, amigo mío."
-        },
-        {
-          "text": "Hola, Cómo estás el día de hoy?"
-        },
-        {
-          "text": "Hola, ¿Cómo estás?"
-        },
-        {
-          "text": "Hola, ¿Cómo te sientes?"
-        },
-        {
-          "text": "Hola, Cómo va todo?"
-        },
-        {
-          "text": "Hola, podrías responder mi pregunta?"
-        },
-        {
-          "text": "Hola ¿puedes ayudarme?"
-        },
-        {
-          "text": "Hola, quien me puede atender?"
-        },
-        {
-          "text": "Hola, Señor."
+          "text": "Sigues aquí?"
         },
         {
           "text": "Quién eres?"
         },
         {
-          "text": "Sigues aquí?"
+          "text": "Hola, Señor."
+        },
+        {
+          "text": "Hola, quien me puede atender?"
+        },
+        {
+          "text": "Hola ¿puedes ayudarme?"
+        },
+        {
+          "text": "Hola, podrías responder mi pregunta?"
+        },
+        {
+          "text": "Hola, Cómo va todo?"
+        },
+        {
+          "text": "Hola, ¿Cómo te sientes?"
+        },
+        {
+          "text": "Hola, ¿Cómo estás?"
+        },
+        {
+          "text": "Hola, Cómo estás el día de hoy?"
+        },
+        {
+          "text": "Hola, amigo mío."
+        },
+        {
+          "text": "Hey, ¿cómo te va?"
+        },
+        {
+          "text": "¿Estás ahí?"
+        },
+        {
+          "text": "¡Estoy feliz de poder hablar contigo por primera vez!"
+        },
+        {
+          "text": "¿Cómo está? / Oye, ¿Qué tal?"
+        },
+        {
+          "text": "Buenos días, podemos empezar la conversación?"
+        },
+        {
+          "text": "Buenas noches."
         },
         {
           "text": "Tienes un momento, por favor?"
@@ -502,25 +544,13 @@
       "intent": "General_Agent_Capabilities",
       "examples": [
         {
-          "text": "Tengo varios problemas y necesito saber con qué me puede ayudar."
-        },
-        {
-          "text": "Tengo algunos problemas y quiero algo de información sobre cómo conseguir ayuda."
-        },
-        {
-          "text": "Tengo algunas preguntas y necesito ayuda, ¿puedo recibir ayuda?"
-        },
-        {
-          "text": "¿Qué tipo de preguntas puedes contestar? ¿Y cuáles son tus limitaciones de respuestas?"
-        },
-        {
           "text": "¿Qué tipo de información y problemas puedes resolver para mí?"
         },
         {
-          "text": "¿Qué tipo de cosas puede hacer por mí?"
+          "text": "¿Qué pasa si quiero cambiar la respuesta de texto para una intención?"
         },
         {
-          "text": "¿Qué pasa si quiero cambiar la respuesta de texto para una intención?"
+          "text": "¿Qué tipo de cosas puede hacer por mí?"
         },
         {
           "text": "¿Qué hace un agente digital? ¿Para qué te uso?"
@@ -530,6 +560,24 @@
         },
         {
           "text": "¿Puedo tener una lista de temas disponibles, con los que puedes ayudarme?"
+        },
+        {
+          "text": "¿Puedes esperar un poquito?"
+        },
+        {
+          "text": "¿Puedes darme una lista de temas de cosas con las que puedes ayudarme?"
+        },
+        {
+          "text": "¿Puedes ayudarme en cómo iniciar sesión en Virtual Agent?"
+        },
+        {
+          "text": "¿Podría esperar un segundo por favor?"
+        },
+        {
+          "text": "¿Podría esperar un momento por favor?"
+        },
+        {
+          "text": "¿Podría darme una lista de temas con las que puede ayudarme?"
         },
         {
           "text": "¿Cómo funciona el filtro en la pantalla de capacidades?"
@@ -544,22 +592,16 @@
           "text": "¿Cuáles son las opciones disponibles si estoy usando agente virtual?"
         },
         {
-          "text": "¿Podría darme una lista de temas con las que puede ayudarme?"
+          "text": "Tengo varios problemas y necesito saber con qué me puede ayudar."
         },
         {
-          "text": "¿Podría esperar un momento por favor?"
+          "text": "Tengo algunos problemas y quiero algo de información sobre cómo conseguir ayuda."
         },
         {
-          "text": "¿Podría esperar un segundo por favor?"
+          "text": "Tengo algunas preguntas y necesito ayuda, ¿puedo recibir ayuda?"
         },
         {
-          "text": "¿Puedes ayudarme en cómo iniciar sesión en Virtual Agent?"
-        },
-        {
-          "text": "¿Puedes darme una lista de temas de cosas con las que puedes ayudarme?"
-        },
-        {
-          "text": "¿Puedes esperar un poquito?"
+          "text": "¿Qué tipo de preguntas puedes contestar? ¿Y cuáles son tus limitaciones de respuestas?"
         }
       ],
       "description": "Solicitar capacidades del bot."
@@ -568,64 +610,64 @@
       "intent": "General_Ending",
       "examples": [
         {
-          "text": "Fue agradable hablar contigo."
-        },
-        {
-          "text": "Vaya usted con Diós!"
-        },
-        {
-          "text": "Usted es maravilloso. Gracias por su ayuda."
-        },
-        {
-          "text": "Un saludo."
-        },
-        {
-          "text": "¡Salud!"
-        },
-        {
-          "text": "Qué tengas una buena tarde."
-        },
-        {
-          "text": "Qué te lo pases bien."
-        },
-        {
-          "text": "OK, eso es todo lo que necesito saber."
-        },
-        {
-          "text": "No tengo más dudas, gracias por tu ayuda."
-        },
-        {
-          "text": "Nos vemos."
-        },
-        {
-          "text": "¡Muchas gracias, adiós!"
-        },
-        {
-          "text": "Hablaremos más tarde."
+          "text": "Gracias por tu ayuda, hasta luego."
         },
         {
           "text": "Hablamos luego."
         },
         {
-          "text": "Gracias por tu ayuda, hasta luego."
+          "text": "Hablaremos más tarde."
         },
         {
-          "text": "Gracias, podemos cerrar esta conversación."
+          "text": "¡Muchas gracias, adiós!"
         },
         {
-          "text": "Gracias no necesito más ayuda."
+          "text": "Nos vemos."
+        },
+        {
+          "text": "No tengo más dudas, gracias por tu ayuda."
+        },
+        {
+          "text": "OK, eso es todo lo que necesito saber."
+        },
+        {
+          "text": "Qué te lo pases bien."
+        },
+        {
+          "text": "Qué tengas una buena tarde."
+        },
+        {
+          "text": "¡Salud!"
+        },
+        {
+          "text": "Un saludo."
+        },
+        {
+          "text": "Usted es maravilloso. Gracias por su ayuda."
+        },
+        {
+          "text": "Vaya usted con Diós!"
         },
         {
           "text": "Ya me voy."
         },
         {
-          "text": "Eso ha sido todo lo que me hacía falta."
+          "text": "Buenas tardes."
         },
         {
           "text": "Cuídate!"
         },
         {
-          "text": "Buenas tardes."
+          "text": "Eso ha sido todo lo que me hacía falta."
+        },
+        {
+          "text": "Fue agradable hablar contigo."
+        },
+        {
+          "text": "Gracias no necesito más ayuda."
+        },
+        {
+          "text": "Gracias, podemos cerrar esta conversación."
         }
       ],
       "description": "Fin de la conversacion."
@@ -634,19 +676,19 @@
       "intent": "hoteles_disponibles",
       "examples": [
         {
-          "text": "decime que hoteles hay disponibles"
-        },
-        {
-          "text": "cuantos hoteles hay?"
-        },
-        {
-          "text": "comentame los hoteles que tenes"
+          "text": "quiero saber los hoteles que existen"
         },
         {
           "text": "hoteles disponibles"
         },
         {
-          "text": "quiero saber los hoteles que existen"
+          "text": "comentame los hoteles que tenes"
+        },
+        {
+          "text": "cuantos hoteles hay?"
+        },
+        {
+          "text": "decime que hoteles hay disponibles"
         },
         {
           "text": "hoteles en mi ciudad"
@@ -658,19 +700,19 @@
       "intent": "precio_habitacion",
       "examples": [
         {
-          "text": "decime el precio de una habitacion"
-        },
-        {
-          "text": "quiero saber el precio de un cuarto"
+          "text": "cuanto sale por noche en este hotel"
         },
         {
           "text": "cuanto es el promedio de precio de una habitacion aqui?"
         },
         {
-          "text": "cuanto sale por noche en este hotel"
+          "text": "quiero saber el precio de un cuarto"
         },
         {
           "text": "quiero saber el precio de habitacion"
+        },
+        {
+          "text": "decime el precio de una habitacion"
         }
       ],
       "description": ""
@@ -682,28 +724,13 @@
           "text": "Excelente!"
         },
         {
-          "text": "Es un placer trabajar contingo."
+          "text": "Gracias."
         },
         {
-          "text": "Estoy muy contento con su servicio."
+          "text": "Gracias por todo!"
         },
         {
           "text": "Me alegraste el día."
-        },
-        {
-          "text": "Eres muy profesional."
-        },
-        {
-          "text": "Eres el mejor."
-        },
-        {
-          "text": "El mejor soporte."
-        },
-        {
-          "text": "El agente era muy amable y resolvió mi problema inmediatamente."
-        },
-        {
-          "text": "Espero que me atiendas también la próxima vez."
         },
         {
           "text": "Me gustaría llenar la encuesta de satisfacción."
@@ -730,10 +757,25 @@
           "text": "Siempre resuelves mis problemas, gracias."
         },
         {
-          "text": "Gracias por todo!"
+          "text": "El agente era muy amable y resolvió mi problema inmediatamente."
         },
         {
-          "text": "Gracias."
+          "text": "Eres el mejor."
+        },
+        {
+          "text": "El mejor soporte."
+        },
+        {
+          "text": "Eres muy profesional."
+        },
+        {
+          "text": "Espero que me atiendas también la próxima vez."
+        },
+        {
+          "text": "Estoy muy contento con su servicio."
+        },
+        {
+          "text": "Es un placer trabajar contingo."
         }
       ],
       "description": "Expresar un sentimiento positivo o gratitud."
@@ -853,6 +895,93 @@
   ],
   "dialog_nodes": [
     {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lo siento, no contamos con ese hotel."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1594166308657",
+      "conditions": "anything_else",
+      "dialog_node": "node_10_1594166821666",
+      "previous_sibling": "node_5_1594166573748"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_8_1594166308657",
+      "variable": "$hotel",
+      "dialog_node": "slot_7_1594166320736",
+      "previous_sibling": "node_10_1594166821666"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Cuantas estrellas del 1 al 5 le da al hotel?",
+            "options": [
+              {
+                "label": "1",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "2",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "3",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              },
+              {
+                "label": "4",
+                "value": {
+                  "input": {
+                    "text": "4"
+                  }
+                }
+              },
+              {
+                "label": "5",
+                "value": {
+                  "input": {
+                    "text": "5"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1594166308657",
+      "context": {
+        "action": "puntear_estrellas"
+      },
+      "conditions": "$hotel",
+      "dialog_node": "node_5_1594166573748"
+    },
+    {
       "type": "response_condition",
       "output": {
         "text": {
@@ -882,6 +1011,39 @@
       "dialog_node": "response_10_1592961092847"
     },
     {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Genial! Ahora me podrias dejar un comentario de como fue su experiencia en el hotel?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1594166573748",
+      "context": {
+        "action": "evaluar_emocion"
+      },
+      "conditions": "$action==\"puntear_estrellas\"",
+      "dialog_node": "node_7_1594167023115"
+    },
+    {
+      "type": "standard",
+      "parent": "node_7_1594167023115",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "$emocion",
+      "dialog_node": "node_8_1594167388086"
+    },
+    {
       "type": "event_handler",
       "output": {
         "text": {
@@ -906,6 +1068,45 @@
       "conditions": "@sys-date",
       "event_name": "input",
       "dialog_node": "handler_2_1592528430617"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Me alegro!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1594167388086",
+      "conditions": "$emocion==\"satisfied\"",
+      "dialog_node": "response_1_1594167493740",
+      "previous_sibling": "response_8_1594167459703"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Siento que haya sido asi!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1594167388086",
+      "conditions": "$emocion==\"frustrated\"",
+      "dialog_node": "response_8_1594167459703"
     },
     {
       "type": "slot",
@@ -1016,6 +1217,83 @@
       "dialog_node": "node_1_1592528758764"
     },
     {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Muchas gracias por hacer una review al Hotel! Le puedo preguntar de cual Hotel quiere hacer su review?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Hoteles",
+            "options": [
+              {
+                "label": "Radisson",
+                "value": {
+                  "input": {
+                    "text": "Radisson"
+                  }
+                }
+              },
+              {
+                "label": "Conrad",
+                "value": {
+                  "input": {
+                    "text": "Conrad"
+                  }
+                }
+              },
+              {
+                "label": "Esplendor",
+                "value": {
+                  "input": {
+                    "text": "Esplendor"
+                  }
+                }
+              },
+              {
+                "label": "Vivaldi",
+                "value": {
+                  "input": {
+                    "text": "Vivaldi"
+                  }
+                }
+              },
+              {
+                "label": "Sheraton",
+                "value": {
+                  "input": {
+                    "text": "Sheraton"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_7_1594166320736",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1594166320747",
+      "previous_sibling": "handler_5_1594166320747"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1594166320736",
+      "context": {
+        "hotel": "@hotel"
+      },
+      "conditions": "@hotel",
+      "event_name": "input",
+      "dialog_node": "handler_5_1594166320747"
+    },
+    {
       "type": "standard",
       "parent": "node_8_1592527035673",
       "actions": [
@@ -1054,7 +1332,7 @@
       },
       "parent": "node_8_1592527035673",
       "conditions": "anything_else",
-      "dialog_node": "node_8_1592527776146",
+      "dialog_node": "node_4_1593739968372",
       "previous_sibling": "node_2_1592527683014"
     },
     {
@@ -1130,7 +1408,7 @@
           {
             "values": [
               {
-                "text": "Genial! Necesito que me envies la imagen del hotel:"
+                "text": "Genial! Para analizar enviame una URL:"
               }
             ],
             "response_type": "text",
@@ -1138,8 +1416,31 @@
           }
         ]
       },
-      "conditions": "#precio_habitacion",
-      "dialog_node": "node_10_1593564448709",
+      "conditions": "#analizar_url",
+      "dialog_node": "node_10_1593724319764",
+      "previous_sibling": "node_8_1594166308657"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Genial! Empecemos con su review sobre el hotel $hotel."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#puntuar_hotel",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1594166308657",
       "previous_sibling": "Bienvenido"
     },
     {
@@ -1158,7 +1459,9 @@
         ]
       },
       "conditions": "#hoteles_disponibles",
+      "digress_in": "returns",
       "dialog_node": "node_8_1592527035673",
+      "digress_out": "allow_all",
       "previous_sibling": "node_10_1593564448709"
     },
     {
@@ -1204,9 +1507,30 @@
         ]
       },
       "conditions": "#reservar_hotel",
-      "digress_in": "does_not_return",
+      "digress_in": "not_available",
       "dialog_node": "node_6_1592528006692",
-      "previous_sibling": "node_8_1592527035673"
+      "digress_out": "allow_all",
+      "previous_sibling": "node_8_1592527035673",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Genial! Necesito que me envies la imagen del hotel:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#precio_habitacion",
+      "dialog_node": "node_10_1593564448709",
+      "previous_sibling": "node_10_1593724319764"
     },
     {
       "type": "standard",
